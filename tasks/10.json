@@ -1,0 +1,36 @@
+{
+    "st":{
+        "proj":"Проект",
+        "stage":"стадия",
+        "tasks":["задача1","zadacha 2"],
+        "fon":"fon1.css",
+        "img":"sample.img",
+        "url":"/proj/stage/task3.php"
+    },
+    "nd":{
+        "proj":"Проект",
+        "stage":"стадия",
+        "tasks":["задача1","zadacha 2"],
+        "fon":"fon1.css",
+        "img":"sample.img",
+        "url":"/proj/stage/task3.php"
+    },
+    "td":{
+        "proj":"Проект",
+        "stage":"стадия",
+        "tasks":["задача1","zadacha 2"],
+        "fon":"fon1.css",
+        "img":"sample.img",
+        "url":"/proj/stage/task3.php"
+    },
+    "relax":{
+        "proj":"Отдых",
+        "stage":"Релакс",
+        "tasks":["zayadka","smoke","dance","talk"],
+        "fon":"fon1.css",
+        "img":"sample.img",
+        "url":"/proj/stage/task3.php"
+        
+        
+    }
+}

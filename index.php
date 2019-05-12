@@ -44,13 +44,13 @@ switch ($stage){
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="<?php echo $jsn[$do]['fon'];?> ">
 
-    <title>RATEBOR</title>
+    <title>RATIBOR</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-dark bg-dark">
-            RATEBOR
+            RATIBOR
         </nav>
         <div class="row">
             <div class="col phol">

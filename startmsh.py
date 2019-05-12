@@ -43,7 +43,7 @@ os.system('timeout 3m timidity ./midi/ya_svoboden.mid')
 sl(10,"end Work 3",	"8")
 
 os.system('timeout 3m timidity ./midi/eto_vse.mid')
-sl(30,"relax 3",	"9")
+#sl(30,"relax 3",	"9")
 
 #big relax
 

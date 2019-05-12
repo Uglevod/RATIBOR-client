@@ -6,7 +6,7 @@ $date=strval(date("d"));
 //echo $stage;
 
 
-$string = file_get_contents("./tasks/".$date.".json");
+$string = file_get_contents("./RATIBOR-tasks/".$date.".json");
 $jsn = json_decode($string, true);
 
 $do="";

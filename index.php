@@ -6,7 +6,7 @@ $date=strval(date("d"));
 //echo $stage;
 
 
-$string = file_get_contents("./tasks/".$date.".json");
+$string = file_get_contents("./RATIBOR-tasks/".$date.".json");
 $jsn = json_decode($string, true);
 // uu
 $do="";
@@ -44,13 +44,13 @@ switch ($stage){
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="<?php echo $jsn[$do]['fon'];?> ">
 
-    <title>Userv</title>
+    <title>RATEBOR</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-dark bg-dark">
-            PinoChette
+            RATEBOR
         </nav>
         <div class="row">
             <div class="col phol">
@@ -60,20 +60,20 @@ switch ($stage){
 
         <div class="row align-items-center justify-content-center">
             <div class="col-7 ">
-                <div class="card" style="width: 50rem;">
+                <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"> <?php echo $jsn[$do]['stage'];?> </h5>
+                        <h2 class="card-title"> <?php echo $jsn[$do]['stage'];?> </h2>
                         <h6 class="card-subtitle mb-2 text-muted">
                             <?php echo $jsn[$do]['proj'];?>
                         </h6>
-                        <p class="card-text">
+                        <p class="card-text text-left">
 
                             <ul>
                                 <?php 
                                 $arr=$jsn[$do]['tasks'];
                                 foreach ($arr as $a)
                                 {
-                                echo "<li>".$a."</li>";
+                                echo "<li class=' text-left'>".$a."</li>";
                                 }
 
             ?>
